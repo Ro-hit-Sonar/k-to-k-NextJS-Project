@@ -13,8 +13,8 @@ const Testimonial = () => {
                   alt="testimonial"
                   className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
                   src="/farmer1.png"
-                  width={80} // Adjust width according to your design
-                  height={80} // Adjust height according to your design
+                  width={80}
+                  height={80}
                 />
                 <p className="leading-relaxed">
                   Absolutely loved the freshness and quality! The experience of
@@ -35,8 +35,8 @@ const Testimonial = () => {
                   alt="testimonial"
                   className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
                   src="/farmer1.png"
-                  width={80} // Adjust width according to your design
-                  height={80} // Adjust height according to your design
+                  width={80}
+                  height={80}
                 />
                 <p className="leading-relaxed">
                   Visiting the farm was a breath of fresh air—literally! The
@@ -57,8 +57,8 @@ const Testimonial = () => {
                   alt="testimonial"
                   className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
                   src="/farmer1.png"
-                  width={80} // Adjust width according to your design
-                  height={80} // Adjust height according to your design
+                  width={80}
+                  height={80}
                 />
                 <p className="leading-relaxed">
                   From farm to plate, the journey feels real and meaningful.
