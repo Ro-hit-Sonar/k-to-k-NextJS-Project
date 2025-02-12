@@ -1,101 +1,174 @@
-import Image from "next/image";
+import Steps from "@/components/Steps";
+import Testimonial from "@/components/Testimonial";
+import Image from "next/image"; // Correct import
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <>
+      <div>
+        <div className="flex justify-center items-center mt-16">
+          <h1 className="text-[#315D0D] font-semibold text-7xl">
+            खेत-to-Kitchen
+          </h1>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <div>
+          <p className="mt-8 text-center font-normal text-[#315D0D]">
+            We connect farmers and families with love, freshness, and care.
+            <br />
+            Together, we make a difference, one family at a time.
+          </p>
+        </div>
+        <div className=" flex justify-center">
           <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
+            src="/coverfinal.png"
+            alt="cover"
+            width={1200}
+            height={683}
+            className="mt-16 flex items-center justify-center mb-8"
           />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+        </div>
+        <div
+          className="mt-16 h-[600px] w-full bg-cover bg-center"
+          style={{ backgroundImage: "url('/farmbg.png')" }}
         >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+          <div className="flex items-center justify-center ">
+            <h3 className=" text-[#315D0D] text-4xl font-extralight">
+              Get yours today Straight from our farm to your kitchen
+            </h3>
+          </div>
+          <div className="flex justify-center ">
+            <Link href={"/products"}>
+              <Image
+                src="/farmproducts.png"
+                alt="cover"
+                width={900}
+                height={483}
+                className="mt-16 flex items-center justify-center mb-8"
+              />
+            </Link>
+          </div>
+        </div>
+        <div className=" ml-28 ">
+          <h3 className=" text-[#315D0D] text-4xl font-semibold">
+            How we work?{" "}
+          </h3>
+        </div>
+        <div>
+          <Steps />
+        </div>
+        <div className="flex justify-center">
+          <h1 className="font-bold text-[#315D0D] text-5xl">
+            Meet Our Farmers
+          </h1>
+        </div>
+        <div className=" flex flex-wrap justify-center gap-8 mt-16">
+          <Link href={"/products"} className="text-center">
+            <Image
+              src="/farmer1.png"
+              alt="cover"
+              width={275}
+              height={275}
+              className="mx-auto"
+            />
+            <p className="text-[#315D0D] hover:font-semibold mt-4">
+              Ramesh Singh
+            </p>
+          </Link>
+          <Link href={"/products"} className="text-center">
+            <Image
+              src="/farmer2.png"
+              alt="cover"
+              width={275}
+              height={275}
+              className="mx-auto"
+            />
+            <p className="text-[#315D0D] hover:font-semibold mt-4">Sita Devi</p>
+          </Link>
+          <Link href={"/products"} className="text-center">
+            <Image
+              src="/farmer3.png"
+              alt="cover"
+              width={275}
+              height={275}
+              className="mx-auto"
+            />
+            <p className="text-[#315D0D] hover:font-semibold mt-4">
+              Hari Chand
+            </p>
+          </Link>
+          <Link href={"/products"} className="text-center">
+            <Image
+              src="/farmer5.png"
+              alt="cover"
+              width={275}
+              height={275}
+              className="mx-auto"
+            />
+            <p className="text-[#315D0D] hover:font-semibold mt-4 ">
+              Arvind Patel
+            </p>
+          </Link>
+        </div>
+        <div>
+          <p className=" flex justify-center text-[#315D0D] mt-16">
+            {" "}
+            & Many more to come !
+          </p>
+        </div>
+        <div
+          className="mt-12 h-[600px] w-full bg-cover bg-center"
+          style={{ backgroundImage: "url('/farmbground.png')" }}
         >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+          <div className="flex flex-col md:flex-row items-center justify-between gap-8 mt-16 ml-24 ">
+            {/* Left Content Section */}
+            <div className="md:w-1/2">
+              <h1 className=" text-[#315D0D] text-4xl font-semibold mt-20">
+                Check out farm Activities
+              </h1>
+              <p className="text-justify mt-4 text-gray-700 leading-relaxed mr-60">
+                Experience the joy of farm life with our weekend activities!
+                From guided farm tours and organic vegetable picking to hands-on
+                sessions like pottery and cow milking, there’s something for
+                everyone. Enjoy a peaceful escape from city life, breathe in the
+                fresh air, and reconnect with nature. Whether you're here for
+                fun or to learn, we promise a wholesome experience filled with
+                warmth and memories. Join us this weekend and be a part of our
+                farm family!
+              </p>
+              <Link href={"/products"} className="text-blue-700">
+                Click here to know more
+              </Link>
+            </div>
+
+            {/* Right Single Image Section */}
+            <div className="grid grid-cols-2 gap-4 mr-24">
+              <Image
+                src="/grouptour1.webp"
+                alt="Activity 1"
+                width={150}
+                height={150}
+                className="rounded-lg"
+              />
+              <Image
+                src="/grouptour2.webp"
+                alt="Activity 2"
+                width={150}
+                height={150}
+                className="rounded-lg"
+              />
+            </div>
+          </div>
+        </div>
+        <div>
+          <h1 className=" flex flex-wrap justify-center text-xl text-[#315D0D]">
+            {" "}
+            Real stories, real experiences—hear from those who have connected
+            with खेत to Kitchen!
+          </h1>
+          <Testimonial />
+        </div>
+      </div>
+    </>
   );
 }
