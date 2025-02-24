@@ -19,7 +19,7 @@ const Steps = () => {
                     STEP 1
                   </h2>
                   <p className="leading-relaxed">
-                    We're more than just a shop! Before browsing our products,
+                    We are more than just a shop! Before browsing our products,
                     take a moment to visit our Farmer Profile section and get
                     inspired by their heartfelt stories.
                   </p>

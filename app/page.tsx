@@ -131,12 +131,12 @@ export default function Home() {
                 From guided farm tours and organic vegetable picking to hands-on
                 sessions like pottery and cow milking, there’s something for
                 everyone. Enjoy a peaceful escape from city life, breathe in the
-                fresh air, and reconnect with nature. Whether you're here for
+                fresh air, and reconnect with nature. Whether you are here for
                 fun or to learn, we promise a wholesome experience filled with
                 warmth and memories. Join us this weekend and be a part of our
                 farm family!
               </p>
-              <Link href={"/products"} className="text-blue-700">
+              <Link href={"/activity"} className="text-blue-700">
                 Click here to know more
               </Link>
             </div>

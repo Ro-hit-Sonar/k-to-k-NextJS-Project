@@ -19,8 +19,7 @@ const Testimonial = () => {
                 <p className="leading-relaxed">
                   Absolutely loved the freshness and quality! The experience of
                   knowing where my food comes from makes every meal feel more
-                  special. A perfect blend of tradition and trust—can't
-                  recommend it enough.
+                  special. A perfect blend of tradition and trust recommend it .
                 </p>
                 <span className="inline-block h-1 w-10 rounded bg-[#315D0D] mt-6 mb-4"></span>
                 <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
