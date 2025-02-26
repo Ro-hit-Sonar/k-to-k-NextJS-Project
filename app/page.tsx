@@ -63,7 +63,7 @@ export default function Home() {
           </h1>
         </div>
         <div className=" flex flex-wrap justify-center gap-8 mt-16">
-          <Link href={"/products"} className="text-center">
+          <Link href={"/ramesh_singh"} className="text-center">
             <Image
               src="/farmer1.png"
               alt="cover"
@@ -75,7 +75,7 @@ export default function Home() {
               Ramesh Singh
             </p>
           </Link>
-          <Link href={"/products"} className="text-center">
+          <Link href={"/sita_devi"} className="text-center">
             <Image
               src="/farmer2.png"
               alt="cover"
@@ -85,7 +85,7 @@ export default function Home() {
             />
             <p className="text-[#315D0D] hover:font-semibold mt-4">Sita Devi</p>
           </Link>
-          <Link href={"/products"} className="text-center">
+          <Link href={"/hari_chand"} className="text-center">
             <Image
               src="/farmer3.png"
               alt="cover"
@@ -97,7 +97,7 @@ export default function Home() {
               Hari Chand
             </p>
           </Link>
-          <Link href={"/products"} className="text-center">
+          <Link href={"/arvind_patel"} className="text-center">
             <Image
               src="/farmer5.png"
               alt="cover"
