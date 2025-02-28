@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className=" bg-[#6EBA70] p-2 w-full pt-8  border-t border-gray-200 text-center">
+    <div className=" mt-8 bg-[#6EBA70] p-2 w-full pt-8  border-t border-gray-200 text-center">
       <a className="text-white hover:font-semibold">msonarrohit6@gmail.com</a>
       <p className=" text-white leading-normal my-5">
         Rohit Kumar

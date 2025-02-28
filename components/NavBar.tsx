@@ -20,10 +20,10 @@ const NavBar = () => {
             <Link href="/get-started" className="mr-5 hover:font-extrabold">
               Products
             </Link>
-            <Link href="/good-reads" className="mr-5 hover:font-extrabold">
+            <Link href="/about_us" className="mr-5 hover:font-extrabold">
               About Us
             </Link>
-            <Link href="/confess" className="mr-5 hover:font-extrabold">
+            <Link href="/contact_us" className="mr-5 hover:font-extrabold">
               Contact
             </Link>
           </nav>

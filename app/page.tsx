@@ -1,3 +1,4 @@
+import FeedBack from "@/components/FeedBack";
 import Steps from "@/components/Steps";
 import Testimonial from "@/components/Testimonial";
 import Image from "next/image"; // Correct import
@@ -167,6 +168,9 @@ export default function Home() {
             with खेत to Kitchen!
           </h1>
           <Testimonial />
+        </div>
+        <div>
+          <FeedBack />
         </div>
       </div>
     </>
