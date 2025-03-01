@@ -17,7 +17,7 @@ const NavBar = () => {
             <Link href="/" className="mr-5 hover:font-extrabold">
               Home
             </Link>
-            <Link href="/get-started" className="mr-5 hover:font-extrabold">
+            <Link href="/products" className="mr-5 hover:font-extrabold">
               Products
             </Link>
             <Link href="/about_us" className="mr-5 hover:font-extrabold">

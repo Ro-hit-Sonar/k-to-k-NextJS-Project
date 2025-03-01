@@ -88,17 +88,12 @@ const Steps = () => {
               </div>
             </div>
             <Image
-              src="/coverfinal.png"
+              src="/cow.png"
               alt="cover"
               width={500}
               height={500}
               className="ml-28"
             />
-            {/* <img>
-              {" "}
-              className="lg:w-3/5 md:w-1/2 object-cover object-center rounded-lg
-              md:mt-0 mt-12" src="https://dummyimage.com/1200x500" alt="step"
-            </img> */}
           </div>
         </div>
       </section>
