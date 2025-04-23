@@ -1,67 +1,79 @@
+"use client";
+
 import React from "react";
 
 const Footer = () => {
   return (
-    <div className=" mt-8 bg-[#6EBA70] p-2 w-full pt-8  border-t border-gray-200 text-center">
-      <a className="text-white hover:font-semibold">msonarrohit6@gmail.com</a>
-      <p className=" text-white leading-normal my-5">
-        Rohit Kumar
-        <br />
-        Pune , Mahahrastra India
-      </p>
-      <span className="inline-flex">
-        <a className="text-gray-500">
-          <svg
-            fill="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            className="w-5 h-5"
-            viewBox="0 0 24 24"
-          >
-            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-          </svg>
-        </a>
-        <a className="ml-4 text-gray-500">
-          <svg
-            fill="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            className="w-5 h-5"
-            viewBox="0 0 24 24"
-          >
-            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-          </svg>
-        </a>
-        <a className="ml-4 text-gray-500">
-          <svg
-            fill="none"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            className="w-5 h-5"
-            viewBox="0 0 24 24"
-          >
-            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-          </svg>
-        </a>
-        <a className="ml-4 text-gray-500">
-          <svg
-            fill="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            className="w-5 h-5"
-            viewBox="0 0 24 24"
-          >
-            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-          </svg>
-        </a>
-      </span>
-    </div>
+    <footer className="bg-[#6EBA70] text-white py-12 mt-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {/* Contact Info */}
+          <div className="text-center md:text-left">
+            <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
+            <a
+              href="mailto:msonarrohit6@gmail.com"
+              className="text-white hover:text-green-200 transition-colors duration-300"
+            >
+              msonarrohit6@gmail.com
+            </a>
+          </div>
+
+          {/* Location */}
+          <div className="text-center">
+            <h3 className="text-lg font-semibold mb-4">Location</h3>
+            <p className="text-white">
+              Rohit Kumar
+              <br />
+              Pune, Maharashtra, India
+            </p>
+          </div>
+
+          {/* Social Links */}
+          <div className="text-center md:text-right">
+            <h3 className="text-lg font-semibold mb-4">Connect With Us</h3>
+            <div className="flex justify-center md:justify-end space-x-6">
+              <a
+                href="https://www.linkedin.com/in/rohitsonar"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-green-200 transition-colors duration-300"
+              >
+                <svg
+                  className="w-6 h-6"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                </svg>
+              </a>
+              <a
+                href="https://x.com/rohitsonar08"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-green-200 transition-colors duration-300"
+              >
+                <svg
+                  className="w-6 h-6"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* Copyright */}
+        <div className="mt-8 pt-8 border-t border-white/10 text-center">
+          <p className="text-sm text-white/80">
+            © {new Date().getFullYear()} खेत-to-Kitchen. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
   );
 };
 

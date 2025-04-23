@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import React from "react";
 
@@ -12,7 +14,7 @@ const Testimonial = () => {
                 <Image
                   alt="testimonial"
                   className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                  src="/farmer1.png"
+                  src="/priyasharma.png"
                   width={80}
                   height={80}
                 />
@@ -33,7 +35,7 @@ const Testimonial = () => {
                 <Image
                   alt="testimonial"
                   className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                  src="/farmer1.png"
+                  src="/rahulmehta.png"
                   width={80}
                   height={80}
                 />
@@ -55,14 +57,14 @@ const Testimonial = () => {
                 <Image
                   alt="testimonial"
                   className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                  src="/farmer1.png"
+                  src="/ananyaverma.png"
                   width={80}
                   height={80}
                 />
                 <p className="leading-relaxed">
                   From farm to plate, the journey feels real and meaningful.
-                  Every product carries a story, and that’s what makes it so
-                  special. A beautiful initiative that truly connects people
+                  Every product carries a story, and that&apos;s what makes it
+                  so special. A beautiful initiative that truly connects people
                   with their food.
                 </p>
                 <span className="inline-block h-1 w-10 rounded bg-[#315D0D] mt-6 mb-4"></span>

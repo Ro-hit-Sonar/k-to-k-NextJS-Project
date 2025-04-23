@@ -1,5 +1,8 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
+
 const Steps = () => {
   return (
     <div>
@@ -37,8 +40,9 @@ const Steps = () => {
                     STEP 2
                   </h2>
                   <p className="leading-relaxed">
-                    After you’ve met our farmers, head to the products page and
-                    create your shopping list of fresh, farm-picked treasures.
+                    After you&apos;ve met our farmers, head to the products page
+                    and create your shopping list of fresh, farm-picked
+                    treasures.
                   </p>
                 </div>
               </div>
@@ -54,9 +58,9 @@ const Steps = () => {
                     STEP 3
                   </h2>
                   <p className="leading-relaxed">
-                    If you’re visiting the farm, be sure to check out our
+                    If you&apos;re visiting the farm, be sure to check out our
                     family-friendly activities for a fun, hands-on
-                    experience—don’t forget to book your spot!
+                    experience—don&apos;t forget to book your spot!
                   </p>
                 </div>
               </div>
@@ -97,7 +101,6 @@ const Steps = () => {
           </div>
         </div>
       </section>
-      ;
     </div>
   );
 };

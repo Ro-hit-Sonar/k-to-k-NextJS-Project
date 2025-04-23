@@ -132,8 +132,10 @@ const page = () => {
         </div>
         <p className="mt-8 font-mono font-semibold  ">
           {" "}
-          &quot; we our super pround of my super mom , our family welcomes you
-          to our farm.&quot;
+          &quot; What I admire most about my father is his constant curiosity.
+          He’s always trying something new in the fields—even after all these
+          years. Our farm is a blend of his wisdom and experiments, and we’re
+          excited to have you walk through it with us&quot;
         </p>
       </div>
     </div>
